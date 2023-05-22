@@ -1,0 +1,13 @@
+/*  */
+
+.houses {
+  min-height: 100%;
+  max-width: 36rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  border: 0 solid #ededed;
+  border-width: 0 1px;
+  padding-top: 5rem;
+}

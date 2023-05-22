@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# HomeVision Take home test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+This is a take home interview for HomeVision that focuses primarily on writing clean code that accomplishes a very practical task. The challenge is to build a simple web app that displays an infinite scrolling of house data. We’d prefer if you used React (or a React-based framework like Nextjs) but feel free to use any library for the UI components.
+
+**Note:** this is a *flaky* API! That means that it will likely fail with a non-200 response code. Your code *must* handle these errors correctly so that all photos are displayed without issues.
+
+
+## API Endpoint
+
+You can request the data using the following endpoint:
+
+```
+http://app-homevision-staging.herokuapp.com/api_project/houses
+```
+
+This route by itself will respond with a default list of houses (or a server error!). You can use the following URL parameters:
+
+- `page`: the page number you want to retrieve (default is 1).
+- `per_page`: the number of houses per page (default is 10).
+
+
+
 
 ## Available Scripts
 
